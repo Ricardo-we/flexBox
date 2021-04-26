@@ -21,6 +21,8 @@
 }
 
 .caja{
+    font-size: 50px;
+    text-align:center;
     background-color:gray;
     margin: 20px;
     width: 150px;
