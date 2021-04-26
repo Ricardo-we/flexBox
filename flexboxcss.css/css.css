@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contBotones{
+    margin:50px auto;
+    width: 400px;
+}
+
+.container{
+    cursor: pointer;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.caja{
+    background-color:gray;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.modo1{
+    justify-content: space-evenly;
+}
+
+.modo2{
+    justify-content: space-around;
+}
+
+.modo3{
+    justify-content: space-between;
+}
