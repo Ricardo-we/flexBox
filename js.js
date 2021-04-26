@@ -4,17 +4,23 @@ var btn2 = document.querySelector(".btn2");
 var btn3 = document.querySelector(".btn3");
 
 function change1(){
-    caja.classList.toggle("modo1");
-  
+    caja.classList.add("modo1");
+    caja.classList.remove("modo2");
+    caja.classList.remove("modo3")
  }
 
 function change2(){
-   caja.classList.toggle("modo2");
+   caja.classList.add("modo2");
+   caja.classList.remove("modo1");
+   caja.classList.remove("modo3") 
  
 }
 
 function change3(){
-    caja.classList.toggle("modo3")
+    caja.classList.add("modo3");
+    caja.classList.remove("modo1");
+    caja.classList.remove("modo2");     
+    
 }
 
 
